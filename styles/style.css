@@ -1,451 +1,489 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
-
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-
-nav .nav-logo h1{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 26px;
-font-weight: 750;
-line-height: 31px;
-letter-spacing: 0%;
-text-align: left;
-margin-left: 60px;
-}
-nav button{
-    box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
-border-radius: 8px;
-margin-right: 60px;
-opacity: 0.8;
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 18px;
-font-weight: 564;
-line-height: 21px;
-letter-spacing: 0%;
-text-align: center;
-padding: 15px 22px 15px 22px;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
 }
 
-.hero{
-    background-image: url(/assets/Hero-bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 612px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+nav .nav-logo h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 26px;
+  font-weight: 750;
+  line-height: 31px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 60px;
 }
-.hero-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 938px;
-height: 547px;
-}
-.hero-content img{
-    width: 225.28px;
-height: 225px;
-margin-top: 24px;
-}
-.hero-content h1{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 45px;
-font-weight: 752;
-line-height: 63px;
-letter-spacing: 0%;
-text-align: center;
-width: 938px;
-height: 126px;
-margin-top: 30px;
-}
-.hero-content p{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 15px;
-font-weight: 376;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: center;
-width: 800px;
-height: 48px;
-opacity: 0.7;
-margin-top: 22px;
-}
-.hero-content button{
-    border-radius: 8px;
-
-background: rgb(13, 19, 33);
-padding: 19px 22px 19px 22px;
-color: rgb(255, 255, 255);
-font-family: Azeret Mono;
-font-size: 18px;
-font-weight: 564;
-line-height: 21px;
-letter-spacing: 0%;
-text-align: center;
-margin-top: 30px;
-}
-.why-web-dev{
-    border-radius: 16px;
-
-background: rgba(13, 19, 33, 0.02);
-width: 1071px;
-height: 1311px;
-padding: 75px 91px 75px 91px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-margin: 69px auto;
-}
-.why-web-dev-title h1{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 30px;
-font-weight: 752;
-line-height: 34px;
-letter-spacing: 0%;
-text-align: center;
-margin-top: 75px;
-}
-.why-web-dev-title p{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 15px;
-font-weight: 376;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: center;
-margin-top: 22px;
-}
-.why-web-dev-card1, .why-web-dev-card3{
-    border-radius: 16px;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-    width: 889px;
-height: 315px;
-    padding: 45px;
-
-display: flex;
-align-items: center;
-margin-top: 32px;
-justify-content: space-between;
-}
-.why-web-dev-card2{
-    border-radius: 16px;
-    background: linear-gradient(-90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-    width: 889px;
-height: 315px;
-    padding: 45px;
-
-display: flex;
-align-items: center;
-margin-top: 32px;
-justify-content: space-between;
-}
-.card-text{
-    width: 448px;
-height: 206px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0px;
-}
-.card-text h3{
-    color: rgba(13, 19, 33, 0.7);
-font-family: Azeret Mono;
-font-size: 22px;
-font-weight: 658;
-line-height: 33px;
-letter-spacing: 0%;
-text-align: left;
-}
-.card-text p{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 15px;
-font-weight: 376;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-opacity: 0.7;
-margin-top: 15px;
-}
-.card-text button{
-    box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
-opacity: 0.7;
-padding: 11px 18px 11px 18px;
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 18px;
-font-weight: 564;
-line-height: 21px;
-letter-spacing: 0%;
-text-align: center;
-margin-top: 30px;
-}
-.card-img{
-    width: 243.56px;
-height: 203.01px;
+nav button {
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  margin-right: 60px;
+  opacity: 0.8;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 18px;
+  font-weight: 564;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 15px 22px 15px 22px;
 }
 
-.inspiration-section{
-    width: 1071px;
-height: 730px;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-margin: 82px auto;
+.hero {
+  background-image: url(/assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 612px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.inspiration-title{
-    width: 800px;
-    height: 108px;
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 938px;
+  height: 547px;
 }
-.inspiration-title h3{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 30px;
-font-weight: 752;
-line-height: 34px;
-letter-spacing: 0%;
-text-align: center;
+.hero-content img {
+  width: 225.28px;
+  height: 225px;
+  margin-top: 24px;
 }
-.inspiration-title p{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 15px;
-font-weight: 376;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: center;
-opacity: 0.7;
-margin-top: 22px;
+.hero-content h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 45px;
+  font-weight: 752;
+  line-height: 63px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 938px;
+  height: 126px;
+  margin-top: 30px;
 }
-.inspiration-video{
-    box-sizing: border-box;
-border: 1px solid rgba(13, 19, 33, 0.2);
-border-radius: 16px;
-width: 1071px;
-height: 577px;
-padding: 30px;
-margin-top: 45px;
+.hero-content p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 376;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 800px;
+  height: 48px;
+  opacity: 0.7;
+  margin-top: 22px;
 }
-.inspiration-video iframe{
-    border-radius: 16px;
-    width: 1011px;
-     height: 517px;
-}
-.target-section{
-    width: 1071px;
-height: 416px;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-margin: 140px auto;
-}
-.target-title{
-    width: 800px;
-    height: 108px;
-}
-.target-title h3{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 30px;
-font-weight: 752;
-line-height: 34px;
-letter-spacing: 0%;
-text-align: center;
-}
-.target-title p{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 15px;
-font-weight: 376;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: center;
-opacity: 0.7;
-margin-top: 22px;
-}
-.target-cards{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 45px;
-    width: 1071px;
-    height: 282px;
-}
-.target-card1{
-    border-radius: 16px;
+.hero-content button {
+  border-radius: 8px;
 
-background: rgba(255, 76, 30, 0.05);
-width: 342px;
-height: 282px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+  background: rgb(13, 19, 33);
+  padding: 19px 22px 19px 22px;
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 18px;
+  font-weight: 564;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 30px;
 }
-.target-card2{
-    border-radius: 16px;
+.why-web-dev {
+  border-radius: 16px;
 
-background: rgba(0, 76, 232, 0.05);
-    width: 342px;
-    height: 282px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  background: rgba(13, 19, 33, 0.02);
+  width: 1071px;
+  height: 1311px;
+  padding: 75px 91px 75px 91px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 69px auto;
 }
-.target-card3{
-    border-radius: 16px;
+.why-web-dev-title h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 30px;
+  font-weight: 752;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 75px;
+}
+.why-web-dev-title p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 376;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 22px;
+}
+.why-web-dev-card1,
+.why-web-dev-card3 {
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  width: 889px;
+  height: 315px;
+  padding: 45px;
 
-background: rgba(255, 223, 0, 0.05);
-    width: 342px;
-    height: 282px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  justify-content: space-between;
 }
-.target-card-content img{
-    width: 52px;
-    height: 52px;
-}
-.target-card-content h3{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 22px;
-font-weight: 752px;
-line-height: 33px;
-letter-spacing: 0%;
-text-align: left;
-margin-top: 22px;
-}
-.target-card-content p{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 15px;
-font-weight: 376;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-opacity: 0.7;
-margin-top: 8px;
-width: 266px;
-height: 48px;
-}
-.target-card-content a{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 15px;
-font-weight: 658;
-line-height: 17px;
-letter-spacing: 0%;
-text-align: left;
-text-decoration-line: underline;
-margin-top: 22px;
-}
-.target-card-content{
-    width: 266px;
-height: 206px;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-justify-content: center;
-}
-.support-section{
-    border-radius: 16px;
-background: url(../assets/handshake.jpg);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-width: 1071px;
-height: 295px;
-margin: 38px auto;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-.support-section-content{
-    width: 981px;
-height: 174px;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-}
-.support-section-content-title h3{
-    color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
-    font-size: 30px;
-    font-weight: 658;
-    line-height: 34px;
-    letter-spacing: 0%;
-    text-align: center;
-}
-.support-section-content-title p{
-    color: rgb(255, 255, 255);
-font-family: Azeret Mono;
-font-size: 15px;
-font-weight: 357;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: center;
-opacity: 0.7;
-margin-top: 15px;
-}
-.form{
-    margin-top: 22px;
-}
-.form input{
-    box-sizing: border-box;
-border: 1px solid rgba(13, 19, 33, 0.15);
-border-radius: 8px;
+.why-web-dev-card2 {
+  border-radius: 16px;
+  background: linear-gradient(
+    -90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  width: 889px;
+  height: 315px;
+  padding: 45px;
 
-background: rgb(255, 255, 255);
-color: rgba(13, 19, 33, 0.4);
-font-family: Azeret Mono;
-font-size: 15px;
-font-weight: 357;
-line-height: 17px;
-letter-spacing: 0%;
-text-align: left;
-width: 515px;
-padding: 17px 18px 17px 18px;
-height: 53px;
-margin-right: 15px;
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  justify-content: space-between;
 }
-.form button{
-    border-radius: 8px;
+.card-text {
+  width: 448px;
+  height: 206px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+}
+.card-text h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 22px;
+  font-weight: 658;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card-text p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 376;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+  margin-top: 15px;
+}
+.card-text button {
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  padding: 11px 18px 11px 18px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 18px;
+  font-weight: 564;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 30px;
+}
+.card-img {
+  width: 243.56px;
+  height: 203.01px;
+}
 
-background: rgb(255, 255, 255);
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 18px;
-font-weight: 564;
-line-height: 21px;
-letter-spacing: 0%;
-text-align: center;
-padding: 16px 18px 16px 18px;
-border: none;
+.inspiration-section {
+  width: 1071px;
+  height: 730px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 82px auto;
+}
+.inspiration-title {
+  width: 800px;
+  height: 108px;
+}
+.inspiration-title h3 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 30px;
+  font-weight: 752;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.inspiration-title p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 376;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-top: 22px;
+}
+.inspiration-video {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  width: 1071px;
+  height: 577px;
+  padding: 30px;
+  margin-top: 45px;
+}
+.inspiration-video iframe {
+  border-radius: 16px;
+  width: 1011px;
+  height: 517px;
+}
+.target-section {
+  width: 1071px;
+  height: 416px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 140px auto;
+}
+.target-title {
+  width: 800px;
+  height: 108px;
+}
+.target-title h3 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 30px;
+  font-weight: 752;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.target-title p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 376;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-top: 22px;
+}
+.target-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 45px;
+  width: 1071px;
+  height: 282px;
+}
+.target-card1 {
+  border-radius: 16px;
+
+  background: rgba(255, 76, 30, 0.05);
+  width: 342px;
+  height: 282px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.target-card2 {
+  border-radius: 16px;
+
+  background: rgba(0, 76, 232, 0.05);
+  width: 342px;
+  height: 282px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.target-card3 {
+  border-radius: 16px;
+
+  background: rgba(255, 223, 0, 0.05);
+  width: 342px;
+  height: 282px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.target-card-content img {
+  width: 52px;
+  height: 52px;
+}
+.target-card-content h3 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 22px;
+  font-weight: 752px;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 22px;
+}
+.target-card-content p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 376;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+  margin-top: 8px;
+  width: 266px;
+  height: 48px;
+}
+.target-card-content a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 658;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  margin-top: 22px;
+}
+.target-card-content {
+  width: 266px;
+  height: 206px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.support-section {
+  border-radius: 16px;
+  background: url(../assets/handshake.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1071px;
+  height: 295px;
+  margin: 38px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.support-section-content {
+  width: 981px;
+  height: 174px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.support-section-content-title h3 {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 30px;
+  font-weight: 658;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.support-section-content-title p {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 357;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-top: 15px;
+}
+.form {
+  margin-top: 22px;
+}
+.form input {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+
+  background: rgb(255, 255, 255);
+  color: rgba(13, 19, 33, 0.4);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 357;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 515px;
+  padding: 17px 18px 17px 18px;
+  height: 53px;
+  margin-right: 15px;
+}
+.form button {
+  border-radius: 8px;
+
+  background: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 18px;
+  font-weight: 564;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 16px 18px 16px 18px;
+  border: none;
+}
+.footer {
+  border-radius: 16px;
+
+  background: rgba(13, 19, 33, 0.03);
+  width: 1353px;
+  height: 94px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-content {
+  width: 1071px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.copyright {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 18px;
+  font-weight: 564px;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.social-icon a img {
+  width: 33px;
+  height: 32px;
+  margin-right: 6px;
 }

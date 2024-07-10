@@ -101,3 +101,108 @@ letter-spacing: 0%;
 text-align: center;
 margin-top: 30px;
 }
+.why-web-dev{
+    border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.02);
+width: 1071px;
+height: 1311px;
+padding: 75px 91px 75px 91px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 69px auto;
+}
+.why-web-dev-title h1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 30px;
+font-weight: 752;
+line-height: 34px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 75px;
+}
+.why-web-dev-title p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 15px;
+font-weight: 376;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 22px;
+}
+.why-web-dev-card1, .why-web-dev-card3{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    width: 889px;
+height: 315px;
+    padding: 45px;
+
+display: flex;
+align-items: center;
+margin-top: 32px;
+justify-content: space-between;
+}
+.why-web-dev-card2{
+    border-radius: 16px;
+    background: linear-gradient(-90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    width: 889px;
+height: 315px;
+    padding: 45px;
+
+display: flex;
+align-items: center;
+margin-top: 32px;
+justify-content: space-between;
+}
+.card-text{
+    width: 448px;
+height: 206px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+}
+.card-text h3{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 22px;
+font-weight: 658;
+line-height: 33px;
+letter-spacing: 0%;
+text-align: left;
+}
+.card-text p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 15px;
+font-weight: 376;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+margin-top: 15px;
+}
+.card-text button{
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+padding: 11px 18px 11px 18px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 18px;
+font-weight: 564;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 30px;
+}
+.card-img{
+    width: 243.56px;
+height: 203.01px;
+}
+

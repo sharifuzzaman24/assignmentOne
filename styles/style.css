@@ -253,3 +253,123 @@ margin-top: 45px;
     width: 1011px;
      height: 517px;
 }
+.target-section{
+    width: 1071px;
+height: 416px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin: 140px auto;
+}
+.target-title{
+    width: 800px;
+    height: 108px;
+}
+.target-title h3{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 30px;
+font-weight: 752;
+line-height: 34px;
+letter-spacing: 0%;
+text-align: center;
+}
+.target-title p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 15px;
+font-weight: 376;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-top: 22px;
+}
+.target-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 45px;
+    width: 1071px;
+    height: 282px;
+}
+.target-card1{
+    border-radius: 16px;
+
+background: rgba(255, 76, 30, 0.05);
+width: 342px;
+height: 282px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.target-card2{
+    border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
+    width: 342px;
+    height: 282px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.target-card3{
+    border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
+    width: 342px;
+    height: 282px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.target-card-content img{
+    width: 52px;
+    height: 52px;
+}
+.target-card-content h3{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 22px;
+font-weight: 752px;
+line-height: 33px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 22px;
+}
+.target-card-content p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 15px;
+font-weight: 376;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+margin-top: 8px;
+width: 266px;
+height: 48px;
+}
+.target-card-content a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 15px;
+font-weight: 658;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+margin-top: 22px;
+}
+.target-card-content{
+    width: 266px;
+height: 206px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+}
